@@ -1,0 +1,27 @@
+name: agent-forge
+version: 1.0.0
+description: Expert AI agent architect for building production-grade, vendor-agnostic AI agent systems
+author:
+  name: Deep Patel
+  github: deep0patel
+tags:
+  - ai-agents
+  - mcp
+  - multi-agent
+  - orchestration
+  - production
+  - llm-routing
+  - memory
+category: ai-engineering
+clients:
+  - claude-code
+  - cursor
+  - copilot
+  - windsurf
+  - cline
+languages:
+  - typescript
+  - python
+  - go
+  - rust
+license: MIT

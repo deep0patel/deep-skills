@@ -1,0 +1,9 @@
+{
+  "name": "agent-forge",
+  "description": "Expert AI agent architect for building production-grade, vendor-agnostic AI agent systems",
+  "version": "1.0.0",
+  "author": {
+    "name": "Deep Patel",
+    "github": "deep0patel"
+  }
+}

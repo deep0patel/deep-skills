@@ -1,0 +1,16 @@
+{
+  "name": "deep-skills",
+  "description": "Curated AI coding skills by Deep Patel",
+  "author": {
+    "name": "Deep Patel",
+    "github": "deep0patel"
+  },
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": "./skills/code-review/clients/claude-code",
+      "description": "Expert code reviewer for bugs, security, performance, and best practices"
+    }
+  ]
+}

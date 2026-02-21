@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "deep-skills Skill Metadata",
+  "type": "object",
+  "required": ["name", "version", "description", "author", "tags", "category", "clients"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Lowercase, hyphen-separated skill identifier"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semver version string"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "author": {
+      "type": "object",
+      "required": ["name", "github"],
+      "properties": {
+        "name": { "type": "string" },
+        "github": { "type": "string" }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": ["workflow", "language", "framework", "testing", "devops", "security", "documentation", "other"]
+    },
+    "clients": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["claude-code", "cursor", "copilot", "windsurf", "cline"]
+      },
+      "minItems": 1
+    },
+    "languages": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "license": {
+      "type": "string",
+      "default": "MIT"
+    }
+  }
+}
