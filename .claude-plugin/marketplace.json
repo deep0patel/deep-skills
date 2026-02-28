@@ -9,11 +9,6 @@
   },
   "plugins": [
     {
-      "name": "code-review",
-      "source": "./skills/code-review/clients/claude-code",
-      "description": "Expert code reviewer for bugs, security, performance, and best practices"
-    },
-    {
       "name": "agent-forge",
       "source": "./skills/agent-forge/clients/claude-code",
       "description": "Universal agent system framework for building production-grade vendor-agnostic AI agents"
