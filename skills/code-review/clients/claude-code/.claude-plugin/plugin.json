@@ -1,8 +1,0 @@
-{
-  "name": "code-review",
-  "description": "Expert code reviewer for bugs, security, performance, and best practices",
-  "version": "1.0.0",
-  "author": {
-    "name": "Deep Patel"
-  }
-}

@@ -18,7 +18,7 @@ Write once, use everywhere — Claude Code, Cursor, GitHub Copilot, Windsurf, Cl
 Copy the `.mdc` file from any skill's `clients/cursor/` into your project's `.cursor/rules/`:
 
 ```bash
-curl -o .cursor/rules/code-review.mdc https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/code-review/clients/cursor/code-review.mdc
+curl -o .cursor/rules/agent-forge.mdc https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/agent-forge/clients/cursor/agent-forge.mdc
 ```
 
 ### GitHub Copilot
@@ -26,7 +26,7 @@ curl -o .cursor/rules/code-review.mdc https://raw.githubusercontent.com/deep0pat
 Copy from `clients/copilot/`:
 
 ```bash
-curl -o .github/copilot-instructions.md https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/code-review/clients/copilot/.github/copilot-instructions.md
+curl -o .github/copilot-instructions.md https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/agent-forge/clients/copilot/.github/copilot-instructions.md
 ```
 
 ### Windsurf
@@ -34,7 +34,7 @@ curl -o .github/copilot-instructions.md https://raw.githubusercontent.com/deep0p
 Copy from `clients/windsurf/`:
 
 ```bash
-curl -o .windsurf/rules/code-review.md https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/code-review/clients/windsurf/.windsurf/rules/code-review.md
+curl -o .windsurf/rules/agent-forge.md https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/agent-forge/clients/windsurf/.windsurf/rules/agent-forge.md
 ```
 
 ### Cline
@@ -42,7 +42,7 @@ curl -o .windsurf/rules/code-review.md https://raw.githubusercontent.com/deep0pa
 Copy from `clients/cline/`:
 
 ```bash
-curl -o .cline/rules/code-review.md https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/code-review/clients/cline/.cline/rules/code-review.md
+curl -o .cline/rules/agent-forge.md https://raw.githubusercontent.com/deep0patel/deep-skills/main/skills/agent-forge/clients/cline/.cline/rules/agent-forge.md
 ```
 
 ## Available Skills
@@ -50,7 +50,6 @@ curl -o .cline/rules/code-review.md https://raw.githubusercontent.com/deep0patel
 | Skill | Description | Version |
 |-------|-------------|---------|
 | [agent-forge](./skills/agent-forge/) | Expert AI agent architect for building production-grade, vendor-agnostic AI agent systems | 1.0.0 |
-| [code-review](./skills/code-review/) | Expert code reviewer for bugs, security, performance, and best practices | 1.0.0 |
 
 ## Structure
 
