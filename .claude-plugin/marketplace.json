@@ -1,16 +1,22 @@
 {
   "name": "deep-skills",
-  "description": "Curated AI coding skills by Deep Patel",
-  "author": {
-    "name": "Deep Patel",
-    "github": "deep0patel"
+  "owner": {
+    "name": "Deep Patel"
   },
-  "version": "1.0.0",
+  "metadata": {
+    "description": "Curated AI coding skills by Deep Patel",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "code-review",
       "source": "./skills/code-review/clients/claude-code",
       "description": "Expert code reviewer for bugs, security, performance, and best practices"
+    },
+    {
+      "name": "agent-forge",
+      "source": "./skills/agent-forge/clients/claude-code",
+      "description": "Universal agent system framework for building production-grade vendor-agnostic AI agents"
     }
   ]
 }
